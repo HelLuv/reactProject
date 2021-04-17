@@ -1,0 +1,16 @@
+.nav {
+	background-color: #fac8b0;
+	width: 100px;
+}
+
+.item {
+	color: rgb(211, 22, 22);
+	text-decoration: none;
+	padding-left: 5px;
+	margin-top: 10px;
+}
+
+.item a {
+	color: rgb(211, 22, 22);
+	text-decoration: none;
+}

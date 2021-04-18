@@ -9,6 +9,11 @@ body {
   margin: 0 auto;
 }
 
+.app-wrapper-content {
+  background-color: rgb(180, 235, 252);
+  width: 100%;
+}
+
 .main {
   width: 100%;
   display: flex;

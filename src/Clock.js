@@ -20,7 +20,7 @@ class Clock extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Привет, мир!</h1>
+				<h1>Wussup!</h1>
 				<h2>Сейчас {this.state.date.toLocaleTimeString()}.</h2>
 			</div>
 		);

@@ -1,12 +1,9 @@
 import MyPosts from './MyPosts/MyPosts';
-import prof from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 const Profile = () => {
 	return (
-		<div className={prof.profile}>
-			<div>
-				<img src='../profile.png' alt='profile'></img>
-			</div>
-			<div>avatar + description</div>
+		<div>
+			<ProfileInfo />
 			<MyPosts />
 		</div>
 	)

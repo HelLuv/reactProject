@@ -4,7 +4,7 @@ const Post = (props) => {
 		<div className={post.item}>
 			<img src='https://www.woolha.com/media/2020/03/flutter-circleavatar-radius.jpg' alt='avatar'></img>
 			{props.message}
-			<span>&hearts; like</span>
+			<span>&hearts; {props.likeCount}</span>
 		</div>
 	)
 }
